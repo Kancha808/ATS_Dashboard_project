@@ -4,7 +4,7 @@ import Login from "./pages/login";
 import "./App.css";
 import Dashboard from "./pages/Dashboard";
 import Jobs from "./pages/Jobs";
-import Candidates from "./pages/candidates";
+import Candidates from "./pages/Candidates";
 import CandidateDetails from "./pages/CandidateDetails";
 
 function App() {
