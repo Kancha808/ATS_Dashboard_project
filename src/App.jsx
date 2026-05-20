@@ -1,26 +1,12 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import Jobs from "./pages/Jobs";
-import Candidates from "./pages/Candidates";
-import CandidateDetails from "./pages/CandidateDetails";
-
 import "./App.css";
+import { BrowserRouter } from "react-router-dom"; // Make sure to import this if you plan to use routing
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/jobs" element={<Jobs />} />
-        <Route path="/candidates" element={<Candidates />} />
-        <Route
-          path="/candidate-details"
-          element={<CandidateDetails />}
-        />
-      </Routes>
+      <div>
+        <h1>ATS Dashboard</h1>
+      </div>
     </BrowserRouter>
   );
 }
